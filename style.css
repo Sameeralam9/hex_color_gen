@@ -1,0 +1,43 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.outer{
+	background-color: lightgray;
+	width: 300px;
+	height: auto;
+	padding: 5px 5px 5px 5px;
+	border-radius: 15px;
+	border:1px solid rgb(0,0,0,0.15);
+	box-shadow: 0px 0px 20px 10px #d6cbc7;
+}
+.color{
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin: 0px 15px 0px 15px;
+	height: 40px;
+}
+.code{
+	text-align: center;
+}
+.code1{
+	text-align: center;
+}
+.btnHolder{
+	padding:10px 0px 10px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.inputHolder{
+	padding:25px 0px 10px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+input{
+	text-align: center;
+}
